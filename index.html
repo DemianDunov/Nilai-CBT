@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Nilai Ulangan CBT</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+
+  <div class="space-objects" aria-hidden="true">
+    <svg class="rocket" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <g><path d="M... (shortened)"></path></g>
+    </svg>
+    <svg class="astro" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <g><circle cx="256" cy="256" r="180" fill="#fff" opacity="0.06"></circle></g>
+    </svg>
+  </div>
+
+  <main class="stage" role="main" aria-labelledby="app-title">
+    <section class="card" aria-labelledby="login-title">
+      <div class="logo">
+        <div class="badge">CBT</div>
+        <div>
+          <h1 id="app-title">Nilai Ulangan CBT</h1>
+          <div class="small-muted">Masukkan nama lengkap & password.</div>
+        </div>
+      </div>
+
+      <p class="lead">Masukkan nama siswa (contoh: demian dunov bahri al rizky) lalu klik <b>Cek Nilai</b>.</p>
+
+      <label for="name">Nama Lengkap Siswa</label>
+      <input id="name" type="text" placeholder="nama lengkap..." autocomplete="off" />
+
+      <label for="password">Password</label>
+      <div class="input-wrap">
+        <input id="password" type="password" placeholder="password siswa..." />
+        <img id="eyeToggle" class="eye-img" src="eye-closed.png" alt="toggle password" />
+      </div>
+
+      <div style="display:flex;gap:10px;margin-top:12px;">
+        <button class="btn" id="btn-check">Cek Nilai</button>
+        <button class="btn" id="btn-clear" style="background:linear-gradient(135deg,#bbbbff,#8a2be2)">Reset</button>
+      </div>
+
+      <div id="login-feedback" class="hint small-muted" style="margin-top:10px;"></div>
+      <div class="hint" style="margin-top:8px"></div>
+    </section>
+
+    <section class="panel" aria-labelledby="data-title">
+      <h2 id="data-title">Hasil Nilai</h2>
+
+      <div id="info-card" class="info-card">
+        <div class="info-avatar"></div>
+        <h3 id="card-name">—</h3>
+        <p id="card-nis" class="sub">NIS: —</p>
+        <p id="card-status" class="sub">Status: —</p>
+      </div>
+
+      <div class="meta">
+        <div><span class="small-muted">Nama:</span> <span id="out-name">—</span></div>
+        <div><span class="small-muted">NIS:</span> <span id="out-nis">—</span></div>
+        <div><span class="small-muted">Status:</span> <span id="out-status" class="small-muted">Belum mencari</span></div>
+      </div>
+
+      <div class="grade-table" role="region" aria-label="Tabel Nilai">
+        <table id="out-table" aria-live="polite">
+          <thead>
+            <tr><th>Mata Pelajaran</th><th style="width:110px;text-align:right">Nilai</th></tr>
+          </thead>
+          <tbody id="out-body">
+            <tr><td colspan="2" style="padding:14px;color:#bcd7ff">Belum ada data tercantum</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div style="display:flex;gap:10px;margin-top:12px;align-items:center">
+        <button class="btn" id="btn-download">Download CSV</button>
+        <div style="flex:1;text-align:right"><span class="small-muted">By Demian</span></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
