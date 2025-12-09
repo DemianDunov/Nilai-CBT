@@ -3,59 +3,59 @@
    =========================== */
 const students = {
   "demian dunov bahri al rizky": {
-    nis:11512, password:"Qe14P7vC9I",
+    nis:11512, password:"Rahasia",
     grades:{
       "agama":36,"ppkn":57,"b indo":82,"infomatika":52,"matematika":42,"b.ingg":52,
-      "sejarah":34,"olahraga":53,"Rekayasa Perangkat Lunak":51,"Ilmu Pengetahuan Alam Dan Sosial":98
+      "sejarah":34,"olahraga":53,"Rekayasa Perangkat Lunak":51,"Ilmu Pengetahuan Alam Dan Sosial":98, "Seni Budaya": 90,"Bahasa Jepang" : 81
     }
   },
   "arviano caesar azis": {
-    nis:11491,password:"V26Qn73Xf",
+    nis:11491,password:"Rahasia",
     grades:{
       "agama":40,"ppkn":60,"b indo":82,"infomatika":77,"matematika":54,"b.ingg":92,
-      "sejarah":58,"olahraga":57,"Rekayasa Perangkat Lunak":46,"Ilmu Pengetahuan Alam Dan Sosial":76
+      "sejarah":58,"olahraga":57,"Rekayasa Perangkat Lunak":46,"Ilmu Pengetahuan Alam Dan Sosial":76, "Seni Budaya": 89,"Bahasa Jepang" : 82
     }
   },
   "pandu ardan winata": {
-    nis:11613,password:"H7vB61mJ8",
+    nis:11613,password:"Rahasia",
     grades:{
       "agama":42,"ppkn":63,"b indo":92,"infomatika":89,"matematika":59,"b.ingg":73,
-      "sejarah":65,"olahraga":65,"Rekayasa Perangkat Lunak":55,"Ilmu Pengetahuan Alam Dan Sosial":72
+      "sejarah":65,"olahraga":65,"Rekayasa Perangkat Lunak":55,"Ilmu Pengetahuan Alam Dan Sosial":72, "Seni Budaya": 81,"Bahasa Jepang" : 79
     }
   },
   "muhammad raka pratama": {
-    nis:11589,password:"r7Vn7Ky2o",
+    nis:11589,password:"Rahasia",
     grades:{
       "agama":39,"ppkn":50,"b indo":90,"infomatika":84,"matematika":38,"b.ingg":93,
-      "sejarah":49,"olahraga":58,"Rekayasa Perangkat Lunak":46,"Ilmu Pengetahuan Alam Dan Sosial":88
+      "sejarah":49,"olahraga":58,"Rekayasa Perangkat Lunak":46,"Ilmu Pengetahuan Alam Dan Sosial":88, "Seni Budaya":75 ,"Bahasa Jepang" : 73
     }
   },
   "muhammad irvan hakim": {
-    nis:11583,password:"Vh6uG63Iv",
+    nis:11583,password:"Rahasia",
     grades:{
       "agama":51,"ppkn":50,"b indo":76,"infomatika":69,"matematika":51,"b.ingg":73,
-      "sejarah":63,"olahraga":60,"Rekayasa Perangkat Lunak":45,"Ilmu Pengetahuan Alam Dan Sosial":66
+      "sejarah":63,"olahraga":60,"Rekayasa Perangkat Lunak":45,"Ilmu Pengetahuan Alam Dan Sosial":66, "Seni Budaya": 91,"Bahasa Jepang" : 77
     }
   },
   "altamis raffa aditya": {
-    nis:11477,password:"Uq61Km26z",
+    nis:11477,password:"Rahasia",
     grades:{
       "agama":56,"ppkn":60,"b indo":92,"infomatika":87,"matematika":54,"b.ingg":86,
-      "sejarah":54,"olahraga":57,"Rekayasa Perangkat Lunak":60,"Ilmu Pengetahuan Alam Dan Sosial":84
+      "sejarah":54,"olahraga":57,"Rekayasa Perangkat Lunak":60,"Ilmu Pengetahuan Alam Dan Sosial":84, "Seni Budaya": 90,"Bahasa Jepang" : 82
     }
   },
   "rasya andhika ash shofi": {
-    nis:11623,password:"C26Bu9Ns51",
+    nis:11623,password:"Rahasia",
     grades:{
       "agama":58,"ppkn":60,"b indo":89,"infomatika":85,"matematika":53,"b.ingg":89,
-      "sejarah":43,"olahraga":58,"Rekayasa Perangkat Lunak":59,"Ilmu Pengetahuan Alam Dan Sosial":80
+      "sejarah":43,"olahraga":58,"Rekayasa Perangkat Lunak":59,"Ilmu Pengetahuan Alam Dan Sosial":80, "Seni Budaya": 87,"Bahasa Jepang" : 82
     }
   },
   "muhammad tubagus alfarizi": {
-    nis:11591,password:"M8nV93Q13Lu",
+    nis:11591,password:"Rahasia",
     grades:{
       "agama":52,"ppkn":53,"b indo":95,"infomatika":87,"matematika":59,"b.ingg":81,
-      "sejarah":53,"olahraga":57,"Rekayasa Perangkat Lunak":57,"Ilmu Pengetahuan Alam Dan Sosial":73
+      "sejarah":53,"olahraga":57,"Rekayasa Perangkat Lunak":57,"Ilmu Pengetahuan Alam Dan Sosial":73, "Seni Budaya": 89,"Bahasa Jepang" : 89
     }
   }
 };
